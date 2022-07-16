@@ -1,9 +1,157 @@
-table {
-    border-collapse: collapse;
-    margin: 15px 0;
+/*COLOR PALETTE: #AFE094 #76C497 #4AA695 #32868A #2F6675 #2F4858*/
+
+body {
+    background-color: #AFE094;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: #2F6675;
 }
 
-td, th {
-    border: 1px solid black;
-    padding: 5px 10px;
+h3 {
+    font-family: 'Sriracha', cursive;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+#cafeImage {
+    width: 375px;
+}
+
+/*#coffeeRings {*/
+/*    align-self: flex-start;*/
+/*    top: -350px;*/
+/*    left: -42px;*/
+/*    height: 400px;*/
+/*    width: 500px;*/
+/*}*/
+
+/*#coffeeStain1 {*/
+/*    position: static;*/
+/*    top: -476px;*/
+/*    left: 735px;*/
+/*    height: 344px;*/
+/*    width: 250px;*/
+/*}*/
+
+#navRow {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.searchCoffee {
+    background: transparent;
+    border: none;
+    margin: 30px;
+    width: 69%;
+
+}
+
+.addCoffee {
+    background: transparent;
+    border: none;
+    margin: 30px;
+    width: 69%;
+}
+
+.card-header {
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: #000000;
+}
+
+.roastType {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.coffeeName {
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+select {
+    margin-bottom: 1em;
+}
+
+option {
+    background: #76C497;
+}
+
+input {
+    margin-bottom: .5em;
+}
+
+#roast-selection.form-select {
+    background: linear-gradient(to left, rgba(118,196,151,0), rgba(118,196,151,1));
+    border: none;
+    color: #2F6675;
+}
+
+#coffeeSearchInput.form-control {
+    background: linear-gradient(to left, rgba(118,196,151,0), rgba(118,196,151,1));
+    border: none;
+}
+
+#new-coffee-roast.form-select {
+    background: linear-gradient(to left, rgba(118,196,151,0), rgba(118,196,151,1));
+    border: none;
+    color: #2F6675;
+}
+
+#new-coffee-name.form-control {
+    background: linear-gradient(to left, rgba(118,196,151,0), rgba(118,196,151,1));
+    border: none;
+}
+
+#submit.btn.btn-outline-dark {
+    color: #2F4858;
+    border: 2px #2F6675 solid;
+}
+
+.dottedLine {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    height: 5px;
+    background-image:
+            linear-gradient(90deg, transparent, transparent 50%, #AFE094 50%, #AFE094 100%),
+            linear-gradient(90deg, #2F4858, #2F6675, #32868A, #4AA695, #76C497);
+    background-size: 20px 3px, 100% 3px;
+    border: none;
+}
+
+.dottedLine2 {
+    margin-top: 5em;
+    margin-bottom: .5em;
+    height: 5px;
+    background-image:
+            linear-gradient(90deg, transparent, transparent 50%, #AFE094 50%, #AFE094 100%),
+            linear-gradient(90deg, #2F4858, #2F6675, #32868A, #4AA695, #76C497);
+    background-size: 20px 3px, 100% 3px;
+    border: none;
+}
+
+#coffees {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.searchName {
+    font-weight: bolder;
+}
+
+div.searchRoast {
+    font-size: 16px;
+}
+
+div#coffees {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: left;*/
+    /*width: 150px;*/
+    /*text-align: left;*/
 }
